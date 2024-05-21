@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "clippy"
+version = "0.1.0"
+description = ""
+authors = ["ell <ell@ell.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+chromadb = "^0.5.0"
+html5lib = "^1.1"
+pandas = "^2.2.2"
+zstandard = "^0.22.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
